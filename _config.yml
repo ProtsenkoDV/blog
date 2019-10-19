@@ -40,6 +40,7 @@ baseurl: "/blog"
 
 
 excerpt_separator: <!--more-->
+paginate: 5
 
 
 #
