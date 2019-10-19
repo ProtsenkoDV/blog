@@ -48,6 +48,8 @@ paginate: 5
 #
 
 permalink: /:categories/:title/
+gems: [jekyll-paginate]
+paginate: 10
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -70,6 +72,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  [jekyll-paginate]
 
 # Exclude these files from your production _site
 exclude:
@@ -78,5 +81,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  
+paginate: 10
+paginate_path: "/page/:num"
 
 theme: jekyll-theme-leap-day
